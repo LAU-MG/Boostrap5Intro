@@ -1,0 +1,49 @@
+
+
+//import bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+//colors cards
+
+  .color-grad-blue {
+    background: linear-gradient(180deg, rgb(255, 255, 255)40%, rgba(6, 189, 255, 1));
+  }
+
+
+.color-grad-pink {
+  background: linear-gradient(180deg, rgb(255, 255, 255)40%, rgb(255, 0, 183,1));
+}
+
+
+.color-grad-yellow {
+  background: linear-gradient(180deg, rgb(255, 255, 255)40%, rgb(255, 251, 6,1));
+}
+
+
+.color-grad-green {
+  background: linear-gradient(180deg, rgb(255, 255, 255)40%, rgb(31, 255, 6,1));
+}
+
+//glases from card
+.glasses-card{
+  background-image: url('img/glasses.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+//card from arrivals
+.card-arrivals{
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgba(128, 128, 128, 0.1);
+
+}
+
+.card-eyecared {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
