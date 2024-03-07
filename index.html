@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <title>Frontend Bootcamp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  <title>Dribble Focal-template</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
@@ -21,7 +21,6 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navmenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
@@ -36,7 +35,8 @@
         <li class="nav-item">
           <a href="#about" class="nav-link">About</a>
         </li>
-        <button class="btn btn-dark rounded-pill">Sign in <i class="ri-search-line"></i>  <i class="ri-shopping-bag-line"></i></button>
+        <button class="btn btn-dark rounded-pill">Sign in  <i class="ri-search-line"></i>   <i class="ri-shopping-bag-line"></i></i>
+        </button>
       </ul>
     </div>
   </div>
@@ -48,7 +48,7 @@
           <h2>Find your perfect eyewear look</h2>
           <p>We're all about finding you that perfect pair. Experience the difference a perfect pair makes. Let's find yours together.</p>
           <button type="button" class="btn btn-dark rounded-pill">Explore shop</button>
-          <button type="button" class="btn btn-light rounded-pill">Use Your benefits</button>
+          <button type="button" class="btn btn-light rounded-pill border border-2 border-secondary">Use Your benefits</button>
         </div>
         <div class="col-md-6">
           <div class="container mt-5">
@@ -87,14 +87,38 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="card-arrivals glasses-card">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+              <p class="m-3 font-weight-bold">3 colours</p>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card-arrivals glasses-card">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+              <p class="m-3 font-weight-bold">3 colours</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card-arrivals glasses-card">
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card-arrivals glasses-card">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+              <p class="m-3 font-weight-bold">3 colours</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -107,19 +131,29 @@
       <h1 class="text-center">Personalized eyecare for you</h1>
       <p class="text-center">Select one card to find the perfect style or lenses, according to your needs.</p>
     </div>
-
     <div class="row">
       <div class="col-md-3 mb-4">
         <div class="card card-eyecared color-grad-green">
+          <div class="row">
+            <div class="col-md-6">
+              <i class="m-3 ri-glasses-line fs-3 text-success"></i>
+            </div>
+          </div>
           <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
             <h5 class="card-title">Digital Lifestyle</h5>
-            <p class="card-text">Naviguez à chaque trajet : Compagnon visuel pour l'enthousiaste toujours en mouvement</p>
+            <p class="card-text">Entrance Your Digital Lifestyle
+            with Precision Eyeglasses for Strain-Free-Vision
+            </p>
           </div>
         </div>
       </div>
-
       <div class="col-md-3 mb-4">
         <div class="card card-eyecared color-grad-blue">
+          <div class="row">
+            <div class="col-md-6">
+              <i class="m-3 ri-trophy-line fs-3 text-primary"></i>
+            </div>
+          </div>
           <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
             <h5 class="card-title">Toujours en Mouvement</h5>
             <p class="card-text">Naviguez à chaque trajet : Compagnon visuel pour l'enthousiaste toujours en mouvement</p>
@@ -129,22 +163,33 @@
 
       <div class="col-md-3 mb-4">
         <div class="card card-eyecared color-grad-yellow">
+          <div class="row">
+            <div class="col-md-6">
+              <i class="m-3 ri-emotion-line fs-3 text-warning"></i>
+            </div>
+          </div>
           <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
             <h5 class="card-title">Outdoor Lover</h5>
-            <p class="card-text">Naviguez à chaque trajet : Compagnon visuel pour l'enthousiaste toujours en mouvement</p>
+            <p class="card-text">Explore the Great Outdoors with
+            Clarity and Comfor, Eyewear for the Outdoor Enthusiast.
+            </p>
           </div>
         </div>
       </div>
 
       <div class="col-md-3 mb-4">
         <div class="card card-eyecared color-grad-pink">
+          <div class="row">
+            <div class="col-md-6">
+              <i class="m-3 ri-car-line fs-3 text-danger"></i>
+            </div>
+          </div>
           <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
             <h5 class="card-title">Always Driving</h5>
-            <p class="card-text">Naviguez à chaque trajet : Compagnon visuel pour l'enthousiaste toujours en mouvement</p>
+            <p class="card-text">Naviguate Every Journey: Eyewear Companion for the Always-Driving Enthusiast</p>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
