@@ -31,6 +31,18 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.glasses2-card{
+  background-image: url('img/glasses2.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.glasses3-card{
+  background-image: url('img/glasses3.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
 //card from arrivals
 .card-arrivals{
@@ -46,4 +58,8 @@
   width: 250px;
   height: 250px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+

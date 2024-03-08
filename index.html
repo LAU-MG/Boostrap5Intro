@@ -5,14 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap')
+  </style>
   <title>Dribble Focal-template</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+<nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top mb-4">
   <div class="container">
-    <a href="#" class="navbar-brand">Focal</a>
+    <a href="#" class="navbar-brand"><h3>Focal</h3></a>
     <button
       class="navbar-toggler"
       type="button"
@@ -21,31 +23,43 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navmenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item d-flex align-items-center mb-2 p-2">
           <a href="#eyeglasses" class="nav-link">Eyeglasses</a>
+          <i class="ri-arrow-down-s-line ml-1 mt-1"></i>
         </li>
-        <li class="nav-item">
+
+        <li class="nav-item d-flex align-items-center mb-2 p-2">
           <a href="#sunglasses" class="nav-link">Sunglasses</a>
+          <i class="ri-arrow-down-s-line ml-1 mt-1"></i>
         </li>
-        <li class="nav-item">
+        <li class="nav-item d-flex align-items-center mb-2 p-2">
           <a href="#brands" class="nav-link">Brands</a>
+          <i class="ri-arrow-down-s-line ml-1 mt-1"></i>
         </li>
-        <li class="nav-item">
+        <li class="nav-item d-flex align-items-center mb-2 p-2">
           <a href="#about" class="nav-link">About</a>
         </li>
-        <button class="btn btn-dark rounded-pill">Sign in  <i class="ri-search-line"></i>   <i class="ri-shopping-bag-line"></i></i>
-        </button>
       </ul>
+    </div>
+
+        <button class="btn btn-dark rounded-pill">
+          Sign in
+          <i class="ri-search-line mx-2"></i>
+          <i class="ri-shopping-bag-line mx-2"></i>
+        </button>
+
+
     </div>
   </div>
 </nav>
-<section id="hero-secteur">
-    <div class="container mt-5">
+<section id="hero-secteur" class="py-5">
+    <div class="container mt-5" >
       <div class="row">
         <div class="col-md-6 mt-5">
-          <h2>Find your perfect eyewear look</h2>
+          <h1 class="display-3 fw-bold">Find your perfect</h1>
+          <h1 class="display-3 fw-bold"">eyewear look</h1>
           <p>We're all about finding you that perfect pair. Experience the difference a perfect pair makes. Let's find yours together.</p>
           <button type="button" class="btn btn-dark rounded-pill">Explore shop</button>
           <button type="button" class="btn btn-light rounded-pill border border-2 border-secondary">Use Your benefits</button>
@@ -54,18 +68,18 @@
           <div class="container mt-5">
             <div class="row">
               <div class="col-md-4 mb-4">
-                <div class="card rounded">
-                  <img src="img/young-woman.jpg" class="card-img rounded" alt="Image de Fond">
+                <div class="card rounded h-100">
+                  <img src="img/photo1.jpg" class="card-img rounded img-fluid" alt="Image de Fond">
                 </div>
               </div>
               <div class="col-md-4 mb-4">
-                <div class="card rounded">
-                  <img src="img/young-woman.jpg" class="card-img rounded w-100" alt="Image de Fond">
+                <div class="card rounded h-100">
+                  <img src="img/photo2.jpg" class="card-img rounded img-fluid" alt="Image de Fond">
                 </div>
               </div>
               <div class="col-md-4 mb-4">
-                <div class="card rounded">
-                  <img src="img/young-woman.jpg" class="card-img rounded w-100" alt="Image de Fond">
+                <div class="card rounded h-100">
+                  <img src="img/photo3.jpg" class="card-img rounded img-fluid" alt="Image de Fond">
                 </div>
               </div>
             </div>
@@ -74,49 +88,93 @@
       </div>
     </div>
 </section>
-<section id="new-arrivals">
+<section id="new-arrivals" class="py-5">
   <div class="container mt-5">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-6">
-        <h1 class="text-left">New Arrivals</h1>
+        <h1 class=" display-5 fw-bold text-left mb-4">New Arrivals</h1>
       </div>
-      <div class="col-md-6">
-        <a href="#" class="text-right">See All</a>
+      <div class="col-md-6 ml-auto">
+        <p>See All</p>
       </div>
+
     </div>
+
     <div class="row">
       <div class="col-md-4 mb-4">
-        <div class="card-arrivals glasses-card">
+        <div class="card-arrivals border-0 d-flex flex-column justify-content-between">
           <div class="row">
             <div class="col-md-6">
               <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
             </div>
-            <div class="col-md-6" style="text-align: right;">
-              <p class="m-3 font-weight-bold">3 colours</p>
+            <div class="col-md-6 mt-auto">
+              <p class="m-3 font-weight-bold">4 colours</p>
             </div>
           </div>
-      </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card-arrivals glasses-card">
-          <div class="row">
-            <div class="col-md-6">
-              <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
+          <div class="row align-items-center">
+            <div class="col-md-12 text-center">
+              <div class="glasses-card">
+                <img src="img/glasses.png" class="card-img rounded img-fluid" alt="Image de Fond">
+              </div>
             </div>
-            <div class="col-md-6" style="text-align: right;">
-              <p class="m-3 font-weight-bold">3 colours</p>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>AP2548 Optics</p>
+              <p> Alex Perry</p>
+              <p>$187.99</p>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
-        <div class="card-arrivals glasses-card">
+        <div class="card-arrivals border-0 d-flex flex-column justify-content-between">
           <div class="row">
             <div class="col-md-6">
               <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
             </div>
-            <div class="col-md-6" style="text-align: right;">
-              <p class="m-3 font-weight-bold">3 colours</p>
+            <div class="col-md-6 mt-auto">
+              <p class="m-3 font-weight-bold">4 colours</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-12 text-center">
+              <div class="glasses-card">
+                <img src="img/glasses.png" class="card-img rounded img-fluid" alt="Image de Fond">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>AP2548 Optics</p>
+              <p> Alex Perry</p>
+              <p>$187.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card-arrivals border-0 d-flex flex-column justify-content-between">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="badge bg-white text-dark rounded-pill m-3">Best Sellers</p>
+            </div>
+            <div class="col-md-6 mt-auto">
+              <p class="m-3 font-weight-bold">4 colours</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-12 text-center">
+              <div class="glasses-card">
+                <img src="img/glasses.png" class="card-img rounded img-fluid" alt="Image de Fond">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>AP2548 Optics</p>
+              <p> Alex Perry</p>
+              <p>$187.99</p>
             </div>
           </div>
         </div>
@@ -125,10 +183,11 @@
   </div>
 </section>
 
-<section id="eyecared">
+<section id="eyecared" class="py-5">
   <div class="container mt-5">
     <div class="row">
-      <h1 class="text-center">Personalized eyecare for you</h1>
+      <h1 class="display-5 fw-bold text-left mb-4 text-center">Personalized</h1>
+        <h1 class="  display-5 fw-bold text-left mb-4 text-center"> eyecare for you</h1>
       <p class="text-center">Select one card to find the perfect style or lenses, according to your needs.</p>
     </div>
     <div class="row">
